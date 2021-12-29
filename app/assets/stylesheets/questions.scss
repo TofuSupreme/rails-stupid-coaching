@@ -1,0 +1,104 @@
+// Place all the styles related to the Questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+body {
+  padding: 0;
+  margin: 0;
+}
+.banner {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p {
+      font-size: 20px;
+    }
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.user-question {
+    padding-right: 80px;
+.user-bubble {
+    position: relative;
+    background: #fff899;
+    color: #000000;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 120px;
+    text-align: center;
+    width: 341px;
+    height: 106px;
+    border-radius: 33px;
+    padding: 0px;
+}
+.user-bubble:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0;
+    z-index: 1;
+    border-style: solid;
+    border-width: 0 16px 19px 0;
+    border-color: transparent #fff899 transparent transparent;
+    top: 61%;
+    left: -16px;
+    margin-top: -9.5px;
+}
+}
+
+.coach-answer {
+margin-left: 64px;
+.coach-bubble {
+    position: relative;
+    background: #9b99ff;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 120px;
+    text-align: center;
+    width: 341px;
+    height: 106px;
+    border-radius: 33px;
+    padding: 0px;
+}
+.coach-bubble:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0;
+    z-index: 1;
+    border-style: solid;
+    border-width: 19px 0 0 16px;
+    border-color: transparent transparent transparent #9b99ff;
+    top: 61%;
+    right: -16px;
+    margin-top: -9.5px;
+  }
+}
+.btn {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-left: 24px;
+}
+a {
+  text-decoration: none;
+  color: #000000;
+}
